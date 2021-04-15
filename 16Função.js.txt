@@ -1,0 +1,75 @@
+Função !!!
+Se JS fosse país , a Funçaõ seria o Presidente!!!!
+
+/*funçao é um bloco de código nomeado, verbo, uma açao, executa um processo 
+  define um bolco, usando chaves {} 
+  é muito importante definir BONS NOMES para as Funções
+*/
+----------------------------------------------------------------------------
+
+console.log(typeof Object)
+//Function
+objeto em JS é uma função!!!
+
+class Produto {}
+console.log(typeof Produto)
+//Function
+Produto em JS também é função!!!!
+----------------------------------------------------
+Exemplos básicos de funções
+Bloco de código nomeado (Por enquanto)
+usa-se {} para deçimitar a função
+
+// Funcao sem retorno
+function imprimirSoma(a, b) {
+    console.log(a + b)
+}
+
+imprimirSoma(2, 3)
+// 5
+imprimirSoma(2)
+//NaN (Not a Number)
+imprimirSoma(2, 10, 4, 5, 6, 7, 8)
+//12
+imprimirSoma()
+//NaN
+
+// Funcao com retorno
+function soma(a, b = 1) {
+    return a + b
+}
+
+console.log(soma(2, 3))
+// 5 
+console.log(soma(2))
+// 3
+console.log(soma())
+// NaN
+
+-------------------------------------------------------
+outro exemplo
+
+// Armazenando uma funcao em uma variavel
+const imprimirSoma = function (a, b) {
+    console.log(a + b)
+}
+
+imprimirSoma(2, 3)
+// 5 
+
+// Armazenando uma funcao arrow em uma variavel
+const soma = (a, b) => {
+    return a + b
+}
+
+console.log(soma(2, 3))
+// 5 
+
+// retorno implícito
+const subtracao = (a, b) => a - b
+console.log(subtracao(2, 3))
+//-1
+
+const imprimir2 = a => console.log(a)
+imprimir2('Legal!!!')
+//Legal!!!!
