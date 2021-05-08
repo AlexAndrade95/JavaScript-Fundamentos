@@ -11,7 +11,7 @@ const avaliacao2 = 6.871
 const total = avaliacao1  * peso1 + avaliacao2 * peso2
 const media = total / (peso1 + peso2)
 
-console.log(media.toFixed(2))//Funçao tofixed é usado para limitar o numero de casas decimais
-console.log(media.toString(2))//Funçao toString é usada para converter para string , quando(2) será convertido para binário)
+console.log(media.toFixed(2))//Funcao tofixed Ã© usado para limitar o numero de casas decimais
+console.log(media.toString(2))//Funï¿½ao toString Ã© usada para converter para string , quando(2) serÃ¡ convertido para binÃ¡rio)
 console.log(typeof media)
 console.log(typeof Number)
