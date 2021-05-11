@@ -1,19 +1,21 @@
-// Coment�rio de uma linha
-console.log("Linha 1")
+// Comentário de uma linha
+console.log("Linha 1") /* com a extension coderunner instalado
+                       use o atalho ctrl+alt+n para executar
+                       */ 
 
 /*
- coment�rio de 
- m�ltiplas linhas
+ comentário de 
+ múltiplas linhas
 */
 
 /*
- *Coment�rio de 
- *m�ltiplas 
+ *Comentário de 
+ *múltiplas 
  *linhas
 */
 
 /*
- evite comentar o �bvio
- S� comente o que for necess�rio
+ evite comentar o óbvio
+ Só comente o que for necessário
 */
  

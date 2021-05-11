@@ -1,4 +1,4 @@
-//Math È Objeto usado para Exponenciac„o (Potencia)
+//Math √© o Objeto usado para Exponenciac√£o (Potencia)
 const raio = 5.6
 const area = Math.PI * Math.pow(raio, 2)
 
