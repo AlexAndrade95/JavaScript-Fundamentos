@@ -1,4 +1,4 @@
-  Strings
+Strings
 	delimitar por 3 tipos:
 		"" , '', Crase ` 
 //fun��es de exemplo:
