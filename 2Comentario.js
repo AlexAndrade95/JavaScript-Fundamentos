@@ -1,7 +1,7 @@
 // Comentário de uma linha
 console.log("Linha 1") /* com a extension coderunner instalado
-                       use o atalho ctrl+alt+n para executar
-                       */ 
+                        *use o atalho ctrl+alt+n para executar
+                        */ 
 
 /*
  comentário de 
@@ -12,10 +12,9 @@ console.log("Linha 1") /* com a extension coderunner instalado
  *Comentário de 
  *múltiplas 
  *linhas
-*/
+ */
 
 /*
- evite comentar o óbvio
- Só comente o que for necessário
-*/
- 
+ *evite comentar o óbvio
+ *Só comente o que for necessário
+ */
