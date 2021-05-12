@@ -1,24 +1,24 @@
-Função !!!
-Se JS fosse país , a Funçaõ seria o Presidente!!!!
+Funï¿½ï¿½o !!!
+Se JS fosse paï¿½s , a Funï¿½aï¿½ seria o Presidente!!!!
 
-/*funçao é um bloco de código nomeado, verbo, uma açao, executa um processo 
+/*funï¿½ao ï¿½ um bloco de cï¿½digo nomeado, verbo, uma aï¿½ao, executa um processo 
   define um bolco, usando chaves {} 
-  é muito importante definir BONS NOMES para as Funções
+  ï¿½ muito importante definir BONS NOMES para as Funï¿½ï¿½es
 */
 ----------------------------------------------------------------------------
 
 console.log(typeof Object)
 //Function
-objeto em JS é uma função!!!
+objeto em JS ï¿½ uma funï¿½ï¿½o!!!
 
 class Produto {}
 console.log(typeof Produto)
 //Function
-Produto em JS também é função!!!!
+Produto em JS tambï¿½m ï¿½ funï¿½ï¿½o!!!!
 ----------------------------------------------------
-Exemplos básicos de funções
-Bloco de código nomeado (Por enquanto)
-usa-se {} para deçimitar a função
+Exemplos bï¿½sicos de funï¿½ï¿½es
+Bloco de cï¿½digo nomeado (Por enquanto)
+usa-se {} para deï¿½imitar a funï¿½ï¿½o
 
 // Funcao sem retorno
 function imprimirSoma(a, b) {
@@ -65,7 +65,7 @@ const soma = (a, b) => {
 console.log(soma(2, 3))
 // 5 
 
-// retorno implícito
+// retorno implï¿½cito
 const subtracao = (a, b) => a - b
 console.log(subtracao(2, 3))
 //-1
