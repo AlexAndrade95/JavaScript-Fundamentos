@@ -1,6 +1,6 @@
 Let
 tem esopo global
-tem escopo de função
+tem escopo de funï¿½ï¿½o
 tem escopo de bloco
 
 let numero = 1
@@ -10,5 +10,5 @@ let numero = 1
 }
 console.log('fora =', numero)
 // dentro = 2
-   fora = 1 ; pois o let estão em escopos diferentes
-              a preferencia é para o escopo menor
+   fora = 1 ; pois o let estï¿½o em escopos diferentes
+              a preferencia ï¿½ para o escopo menor
