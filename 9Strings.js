@@ -38,22 +38,5 @@ console.log('Ana,Maria,Pedro'.split(','))
 
 
 
-//Templates Strings // usa-se a crase (e não aspas simples) ` 
-                    
-const nome = 'Rebeca'
-const concatenacao = 'Olá' + nome + '!'
-const template = `    
-	Olá
-	${nome}!`
-console.log(concatenacao, template)
-/*Retornará a expressão
- *Olá
- *Rebeca!
- */
 
-//Expresões
-console.log(`1+1 = ${1+1}`)
-/*retornará a expressao 
-*1+1=2
-*/
 

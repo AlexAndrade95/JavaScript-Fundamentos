@@ -1,20 +1,27 @@
 /*
-TemplateString é usado para concatenar(somar) as strings 
-de uma forma mais estética
+TemplateString ï¿½ usado para concatenar(somar) as strings 
+de uma forma mais estï¿½tica
 */
-// ultiliza-se a crase(`) para começar e terminar
+// ultiliza-se a crase(`) para comeï¿½ar e terminar
 
-
+//Templates Strings // usa-se a crase (e nÃ£o aspas simples) ` 
+                    
 const nome = 'Rebeca'
-const concatenacao = 'Olá' + nome + '!'
-//Template          //Crase simples
-const template = ` 
-     Olá 
-     ${nome}!`      //Crase simples
+const concatenacao = 'OlÃ¡' + nome + '!'
+const template = `    
+	OlÃ¡
+	${nome}!`
 console.log(concatenacao, template)
+/*RetornarÃ¡ a expressÃ£o
+ *OlÃ¡
+ *Rebeca!
+ */
 
-//expressões...
-console.log(`1 + 1 = ${1+1}`) //1+1 irá apresentar o texto , ${} irá fazer a soma
+//ExpresÃµes
+console.log(`1+1 = ${1+1}`)
+/*retornarÃ¡ a expressao 
+*1+1=2
+*/
 
 const up = texto => texto.toUpperCase()
 console.log(`Ei... ${up('Cuidado')}!`)
