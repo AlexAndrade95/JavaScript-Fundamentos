@@ -6,7 +6,7 @@
 //funções de exemplo:
 const escola = "Cod3r"
 console.log(escola.charAt(4))
-//retornará a letra r , pois ela esta na 4ª colocacão na palavra
+//retornará a letra r , pois ela esta no indice 4 na palavra
 //r
 
 console.log(escola.chartCodeAt(3)) 
@@ -33,9 +33,8 @@ console.log(escola.replace(3,'e'))
 //'Coder'
 
 console.log('Ana,Maria,Pedro'.split(','))
-//Reornará um Array com três elementos
+//Retornará um Array com três elementos
 //['Ana','Maria','Pedro']
-
 
 
 
