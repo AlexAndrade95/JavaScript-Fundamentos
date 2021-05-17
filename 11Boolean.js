@@ -1,6 +1,6 @@
 /*
 Booleanos = false or true , 
-o símbolo (!) representa a negação lógica(false); (!!) representa afirmação(true)
+o simbolo (!) representa a negacao logica(false); (!!) representa afirmacao(true)
 */
 let isAtivo = false
 console.log(isAtivo)
@@ -10,23 +10,23 @@ console.log(isAtivo)
 //true
 isAtivo = 1
 console.log(!!isAtivo)
-// o caracter ! significa negativo ou não(usado neste caso para mostrar se o valor é verdaeiro ou falso),
-!! significa o valor inicial da variável
-//Nete caso retornará true (verdadeiro)
-
+/* o caracter ! significa negativo ou nao(usado neste caso para mostrar se o valor e verdaeiro ou falso),
+ *!! significa o valor inicial da variavel
+ * Neste caso retornara true (verdadeiro)
+ */
 console.log('os verdadeiros...')
-//os valores a seguir retornará sempre true
+//os valores a seguir retornam sempre true
 console.log(!!3)
 console.log(!!-1)
 console.log(!!' ')
 console.log(!!'texto')
-console.log(!![])
-console.log(!!{})
+console.log(!![]) //Array
+console.log(!!{}) //objeto
 console.log(!!Infinity)
 console.log(!!(isAtivo = true))
 
 console.log('os falsos...')
-//os valores a seguir retornará sempre false (falso)
+//os valores a seguir retornam sempre false (falso)
 console.log(!!0)
 console.log(!!'')
 console.log(!!null)
@@ -39,6 +39,7 @@ console.log(!!('' || null || 0 || ' '))
 
 let nome = 'Lucas'
 console.log(nome || 'Desconhecido')
-//essa forma é muito ultilizada para atribuir um valor a variável
-neste caso se o usuario não digitar o nome, 
-a variável será negativa e retornará a string 'Desconhecido')
+//essa forma e muito ultilizada para atribuir um valor a variavel
+/*neste caso se o usuario nao digitar o nome, 
+ *a variavel sera negativa e retornara a string 'Desconhecido')
+ */
