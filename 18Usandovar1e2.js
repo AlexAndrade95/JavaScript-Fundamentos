@@ -1,33 +1,35 @@
-VAR
-Fuja do escopo Global!!!!(não ultilize variável global,pois todas vão para o mesmo lugar)
-tem escopo global (variável fora de função)
-tem escopo de função
+/*VAR
+Fuja do escopo Global!!!!(nao utilize variavel global,pois todas vao para o mesmo lugar)
+tem escopo global (variavel fora de funcao)
+tem escopo de funcao
+*/
 
 { 
     { 
         { 
             { 
-                var sera = 'Será???'
+                var sera = 'Sera???'
                 console.log(sera)
+                // Sera???
             }
         }
     }
 }
 
 console.log(sera)
-// Será???
+// Sera???
 
----------------------------------------------------------------------
 
 function teste() {
     var local = 123
     console.log(local)
+    //123
 }
 
 teste()
 console.log(local)
-// local não definido, pq o escopo da variável(var local = 123) está dentro função
----------------------------------------------------------------------
+// local nao definido, pq o escopo da variavel(var local = 123) esta dentro funcao
+
 var numero = 1
 {
     var numero = 2
@@ -35,4 +37,4 @@ var numero = 1
 }
 console.log('fora =', numero)
 // dentro = 2
-   fora = 2 ; pois o (var numero = 2 sobrescreceu o var numero = 1 )
+// fora = 2 ; pois o (var numero = 2 sobrescreceu o var numero = 1 )
