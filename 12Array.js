@@ -6,6 +6,7 @@
  *conceito = estrutura dinamica,unidimensional(linear), cada variavel tem o seu identificador
  *objetivo= agrupar multiplos valores em uma unica estrutura
  *Em javaScrip, o array e heterogeneo(Pode usar tipos diferentes)
+ *o ideal e usar o array de forma homogenea (com um unico tipo de dado)
  */
 
 const valores = [7.7, 8.9, 6.3, 9.2]
